@@ -1,7 +1,7 @@
 # FeedbackPage
 Pequeno fomulário para recolhimento de feedbacks de texto. 
 
-![Document - Google Chrome 09_10_2022 15_04_16 (3)](https://user-images.githubusercontent.com/110142425/194772703-683e49f9-cc3a-4c10-9b67-6f6b71a0cda0.png)
+![Feedback - Google Chrome 09_10_2022 15_23_38](https://user-images.githubusercontent.com/110142425/194773312-411c5f06-ce1b-4053-9173-1f10f84a5e59.png)
 
 
 ### 🛠️Tecnologias
