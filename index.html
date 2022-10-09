@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--<header class="menu-bar">
+      <nav>Navibar</nav>
+    </header>-->
+    <main>
+      <div class= "leftMain">
+        
+        <div class="text">
+          <h1><b>Sua opinião é muito importante!</b></h1><br>
+            <h2>Compartilhe suas impressões e ajude-nos a tornar a sua experiência ainda melhor!</h2>
+        </div>
+        <img class="imgFdbck" src="feedback_def.svg" alt="Imagem Feedback">
+      </div>
+
+      <form action=" " class="rightMain">
+        <fieldset class="cardContact" form="contact"name=contactInfo>
+          <span class="titleContainer">
+            <h2 class="feedbackTitle">FEEDBACK
+            </h2>
+          </span>    
+          <label for="nameCell">Nome</label>
+          <!--Input nome -->
+          <input type="text"  id="nameCell" name="namePerson" minlenght="4" maxlength="20" size="20" rows="3" placeholder="Digite seu nome" required/>
+  
+          <!--Input email-->
+          <label for="emailCell">Email</label>
+          <input type="email" id="emailCell" name="emailAdress"
+      required autocomplete placeholder="Ex: nome@dominio.com" minlength="3" maxlength="40">
+  
+          <!--Textarea-->
+          <label for="impressionMessage">Comentário</label>
+          <textarea class="impressionMessage" name="feedbackMsg" placeholder="Descreva sua experiência" rows="3" cols="21" wrap="on" maxlength="300" required></textarea>
+  
+          
+            <button class="submitButton" type="submit"  name="formStatus" value="submitted" form="contact">
+              Enviar</button>
+               
+        </fieldset>
+      </form>
+    
+  </main>
+    
+    <!--<footer>
+      <a>footer</a>
+    </footer>-->
+</body>
+</html>
